@@ -8,7 +8,7 @@
     "dist": "electron-builder"
   },
   "author": "awalol",
-  "license": "GPL",
+  "license": "GPL-3.0",
   "devDependencies": {
     "electron": "^11.2.2",
     "electron-builder": "^22.9.1"
