@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "awalol",
   "license": "GPL",
   "devDependencies": {
-    "electron": "^11.2.2"
+    "electron": "^11.2.2",
+    "electron-builder": "^22.9.1"
   },
   "dependencies": {
     "mdui": "^1.0.1"
+  },
+  "build": {
+    "appId": "cn.awalol.Calculator"
   }
 }

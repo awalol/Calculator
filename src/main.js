@@ -2,9 +2,9 @@ const { app, BrowserWindow, ipcMain, nativeTheme } = require('electron')
 
 function createWindow () {
     const win = new BrowserWindow({
-        width: 800,
+        width: 348,
         height: 600,
-        // autoHideMenuBar: true,
+        autoHideMenuBar: true,
         webPreferences: {
             nodeIntegration: true
         }
